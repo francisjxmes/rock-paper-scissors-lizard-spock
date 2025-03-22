@@ -8,6 +8,7 @@ body {
   background-color: #F2F2F2;
 }
 
+/*Navigation menu styling*/
 nav {
   display: flex;
   justify-content: space-between;
@@ -26,6 +27,7 @@ nav p {
   color: #001011;
 }
 
+/*Homepage styling*/
 h1 {
   font-size: 35px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -84,7 +86,7 @@ h1 {
 }
 
 #choices button:hover {
-  color: #F2F2F2;
+  opacity: 0.7; 
 }
 
 #restart {
@@ -94,10 +96,76 @@ h1 {
   font-size: 20px;
   width: 92%;
   background-color: #F2F2F2;
-  color: black;
+  color: #001011;
+  border-style: none;
+  border: 2px solid #001011;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: ease 0.2s;
+  display: none;
+}
+
+#restart:hover {
+  background-color: #001011;
+  color: #F2F2F2;
+}
+
+/*Rules section styling*/
+ul {
+  margin-top: 20px;
+}
+
+#rules h1 {
+  margin-bottom: 20px;
+}
+
+#rules h1, p, ul {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  line-height: 30px;
+}
+
+#rules span {
+  font-weight: bold;
+}
+
+.span-rock {
+  color: #EF3E36;
+}
+
+.span-paper {
+  color: #17BEBB;
+}
+
+.span-scissors {
+  color: #F49F0A;
+}
+
+.span-lizard {
+  color: #78a120;
+}
+
+.span-spock {
+  color: #806a83;
+}
+
+#return-game-area {
+  padding: 15px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 92%;
+  background-color: #001011;
+  color: #F2F2F2;
   border-style: none;
   border: 2px solid black;
   border-radius: 2px;
   cursor: pointer;
+  transition: ease 0.2s;
 }
 
+#return-game-area:hover {
+  opacity: 0.7;
+}
