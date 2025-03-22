@@ -19,6 +19,20 @@
       <p>Computer Score: <span id="computer-score">0</span> </p>
       <p>Tries Left: <span id="tries-left">5</span> </p>
     </div>
+
+    <div id="choices">
+      <button onlick="playGame('rock')">Rock</button>
+      <button onlick="playGame('paper')">Paper</button>
+      <button onlick="playGame('scissors')">Scissors</button>
+      <button onlick="playGame('lizard')">Lizard</button>
+      <button onlick="playGame('spock')">Spock</button>
+    </div>
+
+    <p id="result"></p>
+
+    <button id="restart" onclick="restartGame()">Restart Game</button>
   </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
