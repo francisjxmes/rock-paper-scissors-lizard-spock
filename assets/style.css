@@ -11,9 +11,13 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: orange;
+  background-color: #F49F0A;
   margin-bottom: 20px;
   padding: 10px;
+}
+
+.rules-active {
+  text-decoration: underline;
 }
 
 nav p {
@@ -45,7 +49,7 @@ h1 {
 }
 
 .btn5 {
-  background-color: #634B66;
+  background-color: #806a83;
 }
 
 #scoreboard {
