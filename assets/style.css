@@ -1,12 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  font-family: Impact, Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 h1 {
   font-size: 35px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 .btn1 {
@@ -34,6 +45,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -56,11 +68,10 @@ h1 {
   font-weight: bold;
 }
 
-
-
 #restart {
   padding: 15px;
-  width: 95%;
+  margin-top: 20px;
+  width: 92%;
   background-color: white;
   color: black;
   border-style: none;
