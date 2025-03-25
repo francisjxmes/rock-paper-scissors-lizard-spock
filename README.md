@@ -9,6 +9,17 @@ This website is the digital version of that game, using the same logic and fun b
 
 ![Am I Responsive Screenshot](assets/images/Am-I-Responsive.png)
 
+## Key Project Goals
+* Provide an Interactive Experience for users.
+* Design a User Interface that is clean and modern.
+* Create a game for users that is accesible and easy to use.
+* Create a fun and engaging experience for my target audience.
+
+## Target Audience
+* Casual gamers and fans of classic games. - Anyone looking for a quick and entertaining game experience.
+* Tech enthusiasts and developers. - Those interested in JavaScript based games and interactive UI/UX design.
+* Students & Educators. - Useful for demonstrating simple game logic and UI interactions.
+
 ## Design and Layout
 The Rock, Paper, Scissors, Lizard, Spock game features a clean, engaging, and user-friendly interface that enhances the player's experience. The layout is structured for clarity and ease of interaction, ensuring that players can quickly understand and enjoy the game.
 
