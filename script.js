@@ -1,3 +1,5 @@
+console.log("JavaScript is running");
+
 /* Score and tries tracking */
 let playerScore = 0;
 let computerScore = 0;
@@ -33,4 +35,39 @@ function determineWinner(playerChoice, computerChoice) {
     computerScore++;
     return `You lose! ${computerChoice} beats ${playerChoice}.`;
   }
+}
+
+/* Game function */
+function playGame(playerChoice) {
+  if (triesLeft === 0) {
+    document.getElementById("result").textContent = "Game over! Click Restart to play again.";
+    return;
+  }
+
+  const computerChoice = getComputerChoice();
+  const resultMessage = determineWinner(playerChoice, computerChoice);
+
+  triesLeft--;
+
+  document.getElementById("player-score").textContent = playerScore;
+  document.getElementById("computer-score").textContent = computerScore;
+  document.getElementById("tries-left").textContent = triesLeft;
+  document.getElementById("result").textContent = resultMessage;
+
+  if (triesLeft === 0) {
+    document.getElementById("restart").style.display = "block";
+  }
+}
+
+/* Restart function */
+function restartGame() {
+  playerScore = 0;
+  computerScore = 0;
+  triesLeft = 5;
+
+  document.getElementById("player-score").textContent = playerScore;
+  document.getElementById("computer-score").textContent = computerScore;
+  document.getElementById("tries-left").textContent = triesLeft;
+  document.getElementById("result").textContent = "";
+  document.getElementById("restart").style.display = "none";
 }
