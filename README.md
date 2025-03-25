@@ -34,6 +34,13 @@ The Rock, Paper, Scissors, Lizard, Spock game features a clean, engaging, and us
 * Engaging color scheme: Different colors for each option make the game fun and visually stimulating.
 * Clear game mechanics: The score, tries left, and player choices are always visible, making it easy to follow each round.
 
+## Testing
+
+### JSHint: My JavaScript code has passed through a linter with no significant issues.
+### W3C Validator: My HTML code has passed through the validator with no issues.
+### Jigsaw Validator: My CSS code has passed through the validator with no issues.
+
+
 
 
 
