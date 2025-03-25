@@ -59,7 +59,8 @@ function playGame(playerChoice) {
 
   triesLeft--;
 
-  
+  document.getElementById("player-choice").textContent = playerChoice;
+  document.getElementById("computer-choice").textContent = computerChoice;
 
   document.getElementById("player-score").textContent = playerScore;
   document.getElementById("computer-score").textContent = computerScore;
