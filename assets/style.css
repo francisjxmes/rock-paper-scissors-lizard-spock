@@ -21,6 +21,11 @@ a {
   text-decoration: none;
 }
 
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
 #rules-active {
   text-decoration: underline;
   text-decoration-thickness: 2px;
