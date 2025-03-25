@@ -1,4 +1,4 @@
-window.onload = function () {
+
   console.log("JavaScript is running");
   alert("JavaScript is loaded!");
 
@@ -81,6 +81,9 @@ function restartGame() {
   document.getElementById("result").textContent = "";
   document.getElementById("restart").style.display = "none";
 }
-}
+
+window.onload = function () {
+  document.getElementById("restart").addEventListener("click", restartGame);
+};
 
 
