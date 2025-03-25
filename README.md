@@ -42,6 +42,24 @@ The Rock, Paper, Scissors, Lizard, Spock game features a clean, engaging, and us
 * W3C Validator: My HTML code has passed through the validator with no issues.
 * Jigsaw Validator: My CSS code has passed through the validator with no issues.
 
+### Navigation
+* I have tested the navigation button to ensure it is linked correctly.
+
+### Responsiveness
+* I have tested the website across multiple screens to ensure it responds to multiple screen sizes.
+
+### Deployment
+* Go to settings tabs in GitHub repository.
+* Go to 'Pages'.
+* Set Source to Deploy from Branch.
+* Select Main Branch.
+* Set Folder to /(root).
+* Click Save.
+
+Live Link Here: [Rock, Paper, Scissors, Lizard, Spock](https://francisjxmes.github.io/rock-paper-scissors-lizard-spock/)
+
+
+
 
 
 
