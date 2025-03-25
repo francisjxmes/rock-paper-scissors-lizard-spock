@@ -1,6 +1,5 @@
 
   console.log("JavaScript is running");
-  alert("JavaScript is loaded!");
 
   document.addEventListener("click", function (event) {
     console.log("Something was clicked");
