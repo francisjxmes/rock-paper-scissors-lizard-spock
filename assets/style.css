@@ -112,7 +112,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 3px solid red; */
   height: 50px;
 }
 
@@ -120,7 +119,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 3px solid blue; */
   height: 50px;
 }
 
@@ -274,6 +272,7 @@ button a {
   }
 }
 
+/* Media queries for screens smaller than 320px */
 @media (max-width: 320px) {
   #choices button {
     width: 100px;
@@ -299,6 +298,4 @@ button a {
     padding-left: auto;
     padding-right: auto;
   }
-
-
 }
