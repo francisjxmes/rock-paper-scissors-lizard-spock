@@ -1,6 +1,16 @@
-console.log("JavaScript is running");
+window.onload = function () {
+  console.log("JavaScript is running");
+  alert("JavaScript is loaded!");
 
-/* Score and tries tracking */
+  document.addEventListener("click", function (event) {
+    console.log("Something was clicked");
+
+    if (event.target.tagName === "BUTTON") {
+      console.log("Button clicked:", event.target.innerText);
+    }
+  });
+
+  /* Score and tries tracking */
 let playerScore = 0;
 let computerScore = 0;
 let triesLeft =5;
@@ -71,3 +81,6 @@ function restartGame() {
   document.getElementById("result").textContent = "";
   document.getElementById("restart").style.display = "none";
 }
+}
+
+
