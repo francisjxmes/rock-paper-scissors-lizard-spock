@@ -63,7 +63,7 @@ h1 {
 }
 
 .btn5 {
-  background-color: #806a83;
+  background-color: #f463e8;
 }
 
 #scoreboard {
@@ -88,12 +88,17 @@ h1 {
 }
 
 #scoreboard #player-scoreboard {
-  color: #EF3E36;
+  color: #001011;
   font-weight: bold;
 }
 
 #scoreboard #computer-scoreboard {
-  color: #806a83;
+  color: #001011;
+  font-weight: bold;
+}
+
+#tries-scoreboard {
+  color: #001011;
   font-weight: bold;
 }
 
@@ -123,11 +128,11 @@ h1 {
 }
 
 #player-choice {
-  color: #EF3E36;
+  color: #001011;
 }
 
 #computer-choice {
-  color: #806a83;
+  color: #001011;
 }
 
 #choices-display span {
