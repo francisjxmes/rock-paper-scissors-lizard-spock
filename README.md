@@ -7,7 +7,7 @@ It was popularized by the TV show The Big Bang Theory, originally invented by Sa
 
 This website is the digital version of that game, using the same logic and fun but on your mobile or computer. 
 
-![Am I Responsive Screenshot](assets/images/Am-I-Responsive.png)
+![Am I Responsive Screenshot](assets/images/Am-I-Responsive2.png)
 
 ## Key Project Goals
 * Provide an Interactive Experience for users.
