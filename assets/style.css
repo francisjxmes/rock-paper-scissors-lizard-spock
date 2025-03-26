@@ -217,32 +217,15 @@ ul {
   font-weight: bold;
 }
 
-.span-rock {
-  color: #EF3E36;
-}
-
-.span-paper {
-  color: #17BEBB;
-}
-
-.span-scissors {
-  color: #F49F0A;
-}
-
-.span-lizard {
-  color: #78a120;
-}
-
-.span-spock {
-  color: #806a83;
-}
 
 #return-game-area {
   padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-top: 20px;
   font-weight: bold;
   font-size: 15px;
-  max-width: 70%;
+  max-width: 80%;
   background-color: #001011;
   border-style: none;
   border: 2px solid black;
