@@ -1,23 +1,24 @@
+/* jshint esversion: 6 */
 
-  console.log("JavaScript is running");
+console.log("JavaScript is running");
 
-  document.addEventListener("click", function (event) {
-    console.log("Something was clicked");
+document.addEventListener("click", function (event) {
+  console.log("Something was clicked");
 
-    if (event.target.tagName === "BUTTON") {
-      console.log("Button clicked:", event.target.innerText);
-    }
-  });
+  if (event.target.tagName === "BUTTON") {
+    console.log("Button clicked:", event.target.innerText);
+  }
+});
 
-  /* Score and tries tracking */
+/* Score and tries tracking */
 let playerScore = 0;
 let computerScore = 0;
-let triesLeft =5;
+let triesLeft = 5;
 
 /* Game Choices */
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
-/* Function to return  random choice for the computer */
+/* Function to return a random choice for the computer */
 function getComputerChoice() {
   const randomIndex = Math.floor(Math.random() * choices.length);
   return choices[randomIndex];
@@ -48,6 +49,12 @@ function determineWinner(playerChoice, computerChoice) {
 
 /* Game function */
 function playGame(playerChoice) {
+  if (!playerChoice) {
+    console.warn("No player choice provided — skipping round.");
+    return;
+  }
+
+
   if (triesLeft === 0) {
     document.getElementById("result").textContent = "Game over! Click Restart to play again.";
     return;
@@ -71,6 +78,8 @@ function playGame(playerChoice) {
   }
 }
 
+playGame("rock");
+
 /* Restart function */
 function restartGame() {
   playerScore = 0;
@@ -87,5 +96,6 @@ function restartGame() {
 window.onload = function () {
   document.getElementById("restart").addEventListener("click", restartGame);
 };
+
 
 
