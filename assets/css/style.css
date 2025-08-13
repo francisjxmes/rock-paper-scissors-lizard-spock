@@ -234,10 +234,26 @@ ul {
   transition: ease 0.2s;
 }
 
-button a {
-  color: #F2F2F2;
+#rules ul {
+  margin-bottom: 30px;
 }
 
+#rules a {
+  background-color: #001011;
+  border-radius: 50px;
+  padding: 10px 30px 10px 30px;
+  margin-top: 50px;
+  color: #F2F2F2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+
+#rules a:hover {
+  opacity: 0.7; 
+}
 
 #return-game-area:hover {
   opacity: 0.7;
@@ -281,9 +297,4 @@ button a {
     margin-left: auto;
     margin-right: auto;
   }
-
-  /* nav {
-    padding-left: auto;
-    padding-right: auto;
-  } */
 }
