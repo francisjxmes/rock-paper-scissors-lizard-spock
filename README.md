@@ -47,6 +47,32 @@ The Rock, Paper, Scissors, Lizard, Spock game features a clean, engaging, and us
 * Engaging color scheme: Different colors for each option make the game fun and visually stimulating.
 * Clear game mechanics: The score, tries left, and player choices are always visible, making it easy to follow each round.
 
+### User Stories
+
+The following user stories guided the development of this project:
+
+1. **Player Move Selection**  
+As a player, I want to select a move (rock, paper, scissors, lizard, spock) so that I can actively participate in the game.
+
+2. **Random Computer Move**  
+As a player, I want the computer to make a random move so that each round is fair and unpredictable.
+
+3. **Score Tracking**  
+As a player, I want to see the current score and number of tries left so that I can track my progress and performance.
+
+4. **Round Result Feedback**  
+As a player, I want a message showing whether I won, lost, or tied each round so I know the outcome immediately.
+
+5. **Game Restart**  
+As a player, I want to restart the game so that I can play again from the beginning without refreshing the page.
+
+6. **Input Validation**  
+As a player, I want the game to handle invalid input gracefully so that the game does not break if a choice is missing or invalid.
+
+7. **Clear Interface and Navigation**  
+As a player, I want the game interface to be clear and easy to interact with so that I can use it without confusion.
+
+
 ### JavaScript Testing
 
 **Tool Used:** [JSHint](https://jshint.com/)
