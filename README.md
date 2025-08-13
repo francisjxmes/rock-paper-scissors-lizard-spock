@@ -47,11 +47,84 @@ The Rock, Paper, Scissors, Lizard, Spock game features a clean, engaging, and us
 * Engaging color scheme: Different colors for each option make the game fun and visually stimulating.
 * Clear game mechanics: The score, tries left, and player choices are always visible, making it easy to follow each round.
 
-## Testing
+### JavaScript Testing
 
-* JSHint: My JavaScript code has passed through a linter with no significant issues.
-* W3C Validator: My HTML code has passed through the validator with no issues.
-* Jigsaw Validator: My CSS code has passed through the validator with no issues.
+**Tool Used:** [JSHint](https://jshint.com/)
+
+1. **Initial Test:**
+- JSHint reported the following issues:
+- One unused variable ('playGame')
+- ES6 options not set at the top of the file
+- Screenshot of initial JSHint output:
+![JSHint before fixes](assets/images/js_lint_test_before.png)
+
+2. **Corrections Made:**
+- Added `/* jshint esversion: 6 */` at the very top of the JS file/
+- Removed unused self calls and exlicitly called `playGame()`
+
+3. **Final Test:**
+- JSHint now reports no errors.
+- Screenshot of final JSHint output:
+![JSHint after fixes](assets/images/js_lint_test_after.png)
+
+### HTML Validation
+
+**Tool Used:** [W3C HTML Validator](https://validator.w3.org/)
+
+1. **Initial Test:**
+- Found issues including:
+- Trailing slashes on void elements interacting poorly with unquoted attribute values
+- Screenshot of initial HTML validation output:
+![HTML before fixes](assets/images/html_W3C_test_before.png)
+
+2. **Corrections Made:**
+- Removed trailing slashes from void elements like `<link>` and `<meta>`.
+- Ensured all attribute values were properly quoted.
+
+3. **Final Test:**
+- HTML now passes validation with no errors, only informational messages.
+- Screenshot of final HTML validation:
+![HTML after fixes](assets/images/html_W3C_test_after.png)
+
+### 3. CSS Validation
+
+**Tool Used:** [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/)
+
+1. **Initial Test:**
+- One CSS error was detected:
+- Invalid padding values
+
+- Screenshot of initial CSS validation output: 
+![CSS before fixes](assets/images/css_jigsaw_test_before.png)
+
+2. **Corrections Made:** 
+- Replaced invalid padding values
+
+3. **Final Test:**
+- CSS now passes validation with no errors.
+- Screenshot of final CSS validation:
+![CSS after fixes](assets/images/css_jigsaw_test_after.png)
+
+### Manual Testing
+
+1. **User Interaction Testing:**
+- Clicked all game buttons (Rock, Paper, Scissors, Lizard, Spock) and verified correct responses.
+- Tested the scoreboard updating correctly after each round.
+- Ensured the “Restart” button resets scores and tries. 
+
+2. **Edge Cases:**
+- Checked that the gamr correctly ends when tries reach zero.
+
+3. **Lighthouse Testing:**
+- Screenshot of index.html Lighthouse Test:
+![Lighthouse Test](assets/images/lighthouse_test_gamearea.png)
+
+- Screenshot of rules.html Lighthouse Test:
+![Lightouse Test](assets/images/lighthouse_test_rules.png)
+
+4. **Conclusion:**  
+- After automated validation and manual testing, the application meets functionality and quality standards.  
+- All code passes validation, user interaction is clear, and the game behaves as expected.
 
 ### Navigation
 * I have tested the navigation button to ensure it is linked correctly.
