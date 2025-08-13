@@ -140,6 +140,16 @@ The Rock, Paper, Scissors, Lizard, Spock game features a clean, engaging, and us
 * Set Folder to /(root).
 * Click Save.
 
+## Attribution
+
+The development of this project was supported by the following resources:
+
+- **W3C Validators** – HTML, CSS, and JavaScript validation tools were used to ensure code quality and standards compliance.  
+- **Font Awesome** – icons used in the project (https://fontawesome.com/).  
+- **Code Institute Learning Materials** – general reference for project structure, HTML/CSS/JS best practices, and project guidance.  
+- **Mozilla Developer Network (MDN)** – documentation for JavaScript, HTML, and CSS used as reference for functions, events, and styling.  
+- **Online tutorials and educational videos** – general learning resources on HTML structure, CSS styling, layout, and JavaScript concepts.
+
 Live Link Here: [Rock, Paper, Scissors, Lizard, Spock](https://francisjxmes.github.io/rock-paper-scissors-lizard-spock/)
 
 
